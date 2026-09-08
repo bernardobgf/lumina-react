@@ -15,7 +15,7 @@ function App() {
   };
 
   return (
-    <div className="min-h-screen bg-cyan-700">
+    <div className="min-h-screen bg-base-100 text-primary-content">
       <Navbar pageHandler={pageHandler} />
       {page === "home" && <Home />}
       {page === "about" && <About />}
