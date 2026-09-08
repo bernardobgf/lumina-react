@@ -6,7 +6,7 @@ interface NavbarProps {
 
 const Navbar = ({ pageHandler }: NavbarProps) => {
   return (
-    <nav className="navbar h-25 glass rounded-b-2xl">
+    <nav className="navbar h-20 backdrop-blur-2xl bg-base-300 rounded-xl fixed top-4 left-1/2 z-50 w-[90%] max-w-4xl -translate-x-1/2 text-primary-content">
       <div className="navbar-start mx-10">
         <button
           className="text-3xl font-bold hover:cursor-pointer"
